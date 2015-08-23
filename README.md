@@ -6,6 +6,7 @@
 +https://d396qusza4a0orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 + The downloaded zip file was unzipped and the individual files were examined to establish their contents and glean information regarding the manner in which the contents of the txt files were structured.
 +The run_analysis.R script contains the R syntax which perform entire processing of the data starting with the downloading of the zip file though to the upload of the cleaned data: 
+## Code Book
 + Step 1 The data was downloaded as a zip file from the specified URL
 +It was then unzipped on my laptop into the working directory “~/UCI HAR Dataset”, that was previously designated as the current working directory in R Studio. 
 + After reviewing the contents of the zip file and based upon the file descriptions listed in the README.txt file,
