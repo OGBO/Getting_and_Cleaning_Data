@@ -1,7 +1,7 @@
 # run_analysis.R
 # STEP 1: Download and reading into R of required files.
 setwd("\\Users\\GeeT\\Documents")
-fileUR <- https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+fileUR <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUR, destfile = “Samgal_S.zip”)
 Samdata <- "Samgal_S.zip"
 Unzip(Samdata)
